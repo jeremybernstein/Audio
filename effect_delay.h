@@ -64,6 +64,7 @@ public:
 				queue[i] = NULL;
 			}
 		}
+		release(inputQueueArray[0]);
 	}
 	void delay(uint8_t channel, float milliseconds) {
 		if (channel >= 8) return;
